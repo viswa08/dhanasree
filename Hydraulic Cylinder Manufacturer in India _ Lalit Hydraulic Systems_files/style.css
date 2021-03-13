@@ -3116,7 +3116,7 @@ select.input-border {
 }
 .footer2-black .footer-2-copy-cont {
 	padding-top: 30px;
-	border-top: 1px solid rgba(255, 255, 255, .1)
+	border-top: 1px solid rgba(201, 95, 95, 0.1)
 }
 .footer2-black .footer-2-soc-a a {
 	color: rgba(255, 255, 255, .3)
@@ -3296,8 +3296,9 @@ select.input-border {
 	top: 0
 }
 #main-menu .navbar .nav .parent .parent>a:after {
-	content: "\e232";
+	/* content: "\e232"; */
 	font-family: linea-icons;
+	padding-right: 20px;
 	font-style: normal;
 	font-weight: 400;
 	text-transform: none;
@@ -8623,7 +8624,7 @@ h2.portfolio-timeline-title {
 }
 .owl-next .icon,
 .owl-prev .icon {
-	position: relative
+	position: relative;
 }
 .owl-next:hover,
 .owl-prev:hover {
@@ -9507,7 +9508,7 @@ screen and (max-height: 300px) {
 		position: relative;
 		margin: 0;
 		padding: 0;
-		#header-leftbackground: #3e4045;
+		header-leftbackground: #9c9fa7;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none
