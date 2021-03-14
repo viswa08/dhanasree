@@ -959,7 +959,7 @@ img,
 img.scale-with-grid,
 video {
 	max-width: 100%;
-	height: auto
+	/* height: auto */
 }
 .logo-row {
 	position: relative;
@@ -3675,7 +3675,8 @@ nav ul {
 	/*padding-left: 30px;*/
 	margin-right: auto;
 	margin-left: auto;
-	width: 100%
+	width: 100%;
+	
 }
 @media (min-width: 1025px) {
 	.indent-header {
@@ -3703,7 +3704,7 @@ header.affix .logo .logo-img {
 	transition: all .4s ease 0s
 }
 footer .logo {
-	height: 120px
+	height: 60px
 }
 header.affix .logo {
 	padding-top: 20px;
@@ -3727,7 +3728,7 @@ header.affix .logo-2 {
 	}
 }
 .logo-img {
-	/*height: 100px;*/
+	height: 70px;
 	position: absolute;
 }
 .logo-2 {
