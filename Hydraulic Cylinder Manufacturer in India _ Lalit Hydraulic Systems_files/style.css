@@ -947,6 +947,8 @@ table.shopping-cart-table tr th {
 		transform: translateY(0)
 	}
 }
+
+
 @keyframes scroll-down-anim {
 	0%, 100% {
 		transform: translateY(-8px)
@@ -955,11 +957,16 @@ table.shopping-cart-table tr th {
 		transform: translateY(0)
 	}
 }
+
+.bottom{
+	max-width: 100%;
+	height: 250px;
+}
 img,
 img.scale-with-grid,
 video {
 	max-width: 100%;
-	/* height: auto */
+	height: auto;
 }
 .logo-row {
 	position: relative;
@@ -1431,7 +1438,7 @@ video {
 	background-color: #fff
 }
 .grey-light-bg {
-	background-color: #eee
+	background-color: #a29d9d;
 }
 .yellow-light-bg {
 	background-color:#2caee6
