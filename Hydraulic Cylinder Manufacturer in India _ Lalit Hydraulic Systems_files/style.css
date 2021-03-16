@@ -8041,6 +8041,9 @@ h2.portfolio-timeline-title {
 		padding-bottom: 0;
 		padding-top: 13px
 	}
+	.icon_menu::before{
+		content: '\2630';
+	}
 	.header {
 		position: relative;
 		margin-bottom: -76px;
